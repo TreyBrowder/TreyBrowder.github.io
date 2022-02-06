@@ -21,9 +21,9 @@ footer {
   max-width: 900px;
 }
 
-main{
-    max-width: 750px;
-    margin: 0 auto;
+main {
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 header {
@@ -145,4 +145,45 @@ footer {
   color: white;
   padding: 1em 0;
   text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  header,
+  footer {
+    margin: 0 5px;
+  }
+
+  .sectionHead {
+    margin: 0 15px;
+  }
+
+  footer {
+    margin-bottom: 5px;
+  }
+
+  #skillsList {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 15px;
+    justify-items: center;
+  }
+
+  #projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  #introPara,
+  #projectPara {
+    padding: 0 20px;
+  }
 }
