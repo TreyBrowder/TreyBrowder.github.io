@@ -13,6 +13,7 @@ html {
 
 h3 {
   color: #444;
+  text-align: center;
 }
 
 header,
@@ -124,7 +125,7 @@ section ul {
 #contactInfo {
   text-align: center;
   list-style-type: none;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 #skillsList {
@@ -151,10 +152,16 @@ footer {
   header,
   footer {
     margin: 0 5px;
+    border-radius: 15px;
   }
 
   .sectionHead {
     margin: 0 15px;
+    border-radius: 15px;
+  }
+
+  article {
+    border-radius: 15px;
   }
 
   footer {
